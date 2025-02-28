@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="signyy_deafandmute"
+        android:label="deaf_mute"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

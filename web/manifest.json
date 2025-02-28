@@ -1,6 +1,6 @@
 {
-    "name": "signyy_deafandmute",
-    "short_name": "signyy_deafandmute",
+    "name": "deaf_mute",
+    "short_name": "deaf_mute",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

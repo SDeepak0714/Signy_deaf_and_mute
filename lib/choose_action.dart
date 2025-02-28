@@ -1,3 +1,4 @@
+import 'package:deaf_mute/ConverPage.dart';
 import 'package:flutter/material.dart';
 import 'learning_modules_page.dart';// Import the Convert page
 
@@ -114,74 +115,6 @@ class ChooseActionPage extends StatelessWidget {
 // The ConvertPage implementation
 //import 'package:flutter/material.dart';
 
-class ConvertPage extends StatelessWidget {
-  const ConvertPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Signyy',
-          style: TextStyle(color: Colors.black),
-        ),
-        backgroundColor: Colors.white,
-        iconTheme: const IconThemeData(color: Colors.black),
-      ),
-      backgroundColor: Colors.blue, // Set background color to blue
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              height: 200, // Placeholder for the central content
-              width: 300,
-              color: Colors.grey[300], // Light grey to represent placeholder area
-              child: const Center(child: Text('Camera Access')),
-            ),
-            const SizedBox(height: 30),
-            ElevatedButton(
-              onPressed: () {
-                // Logic for English conversion
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white, // Button color
-                foregroundColor: Colors.blue, // Text color
-              ),
-              child: const Text('English'),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                // Logic for Gujarati conversion
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white, // Button color
-                foregroundColor: Colors.blue, // Text color
-              ),
-              child: const Text('Gujarati'),
-            ),
-            const SizedBox(height: 30),
-            // Text input area below the "Gujarati" button
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: TextField(
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  filled: true,
-                  fillColor: Colors.white, // White background for the text box
-                  hintText: 'Enter text here...',
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
 
 // class ConvertPage extends StatelessWidget {
 //   const ConvertPage({super.key});
